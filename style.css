@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+span {
+  color: yellow;
+}
+.navbar h4 {
+  font-size: 28px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.navbar a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 8px;
+}
+.navbar .btn {
+  width: 5vw;
+  padding: 6px;
+  background-color: yellow;
+  border: 0.5px black solid;
+}
+.navbar a:hover {
+  color: yellow;
+}
+.navbar .btn:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.hamburger-menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+  display: none;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+}
+.header {
+  width: 100%;
+  height: 90vh;
+}
+.car {
+  width: 500px;
+}
+#car1 {
+  width: 59vw;
+  position: absolute;
+  top: 31%;
+  left: 20%;
+  z-index: 1;
+}
+#car2 {
+  width: 38vw;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+}
+#car3 {
+  width: 43vw;
+  position: absolute;
+  top: 43%;
+  left: 7%;
+  z-index: 0;
+}
+.head {
+  margin-top: 40px;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head h1{
+    font-size: 6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.btn button{
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    color: #333;
+    border: 0.2 solid gray;
+}
+#vehicals{
+  width: 100%;
+  height: 100vh;
+}
+.cards{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  width: 400px;
+  height: 500px;
+}
+.card img{
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  position: relative;
+  top: 20%;
+}
+.card .carmatter{
+  position: relative;
+  top: 22%;
+  left: 100px;
+}
+.card .carmatter p{
+  padding: 4px;
+  font-size: 20px;
+}
+.card .carmatter .btn{
+  padding: 7px;
+  margin: 10px 0px;
+  width: 100px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.heading{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 12vh;
+}
+.heading h1{
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.card:hover{
+  background-color: aliceblue;
+  cursor: pointer;
+}
+#services{
+  width: 100%;
+  height: 100vh;
+}
+.service{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service .serviceMatter{
+    padding: 20px;
+}
+.service p,h2,ul{
+  padding: 10px;
+  font-size: 20px;
+}
+.service .serviceMatter h2{
+  font-size: 30px;
+}
+.serviceMatter li{
+  padding: 6px;
+  list-style: none;
+}
+#reviews{
+  width: 100%;
+  height: 100vh;
+}
+#reviews .cards .card{
+  background-color: beige;
+  margin: 10px;
+}
+#reviews .cards .card .img{
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50px;
+  position: relative;
+  left: 150px;
+  margin-top: 20px;
+}
+#reviews .cards .card .rmatter{
+  position: relative;
+  top: 70px;
+  padding: 10px;
+  margin: 10px;
+}
+#reviews .cards .card .rmatter h4{
+  padding-bottom: 30px;
+}
+.btn{
+  padding: 7px;
+  width: 100px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+#contact{
+  width: 100%;
+  height: 100vh;
+}
+#contact .contactform{
+  width: 30%;
+}
+.contactform h1{
+  padding: 10px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.contactform label{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.contactform input{
+  width: 400px;
+  height: 30px;
+  margin: 20px 0px;
+}
+.contactform #text{
+  height: 150px;
+}
+.footer{
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .navbar a {
+    display: none;
+  }
+  .navbar a.active {
+    display: block;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  
+}
